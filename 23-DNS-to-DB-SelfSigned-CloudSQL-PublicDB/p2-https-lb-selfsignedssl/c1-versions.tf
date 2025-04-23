@@ -1,16 +1,16 @@
 # Terraform Settings Block
 terraform {
-  required_version = ">= 1.9"
+  required_version = ">= 1.5.7"
   required_providers {
     google = {
       source = "hashicorp/google"
-      version = ">= 5.35.0"
+      version = ">= 5.34.0"
     }
   }
   backend "gcs" {
-    bucket = "gcplearn9-tfstate"
+    bucket = "harshini-456810-tfstate"
     prefix = "myapp1/httpslb-selfsigned-publicdb"
-  }  
+  }
 }
 
 # Terraform Provider Block
