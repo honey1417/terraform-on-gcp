@@ -2,7 +2,7 @@
 data "terraform_remote_state" "cloudsql_publicdb" {
   backend = "gcs"
   config = {
-    bucket = "gcplearn9-tfstate"
+    bucket = "harshini-456810-tfstate"
     prefix = "cloudsql/publicdb"
   }
 }
