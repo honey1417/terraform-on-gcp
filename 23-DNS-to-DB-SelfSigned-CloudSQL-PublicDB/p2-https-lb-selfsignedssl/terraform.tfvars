@@ -1,6 +1,6 @@
-gcp_project     = "gcplearn9"
+gcp_project     = "harshini-456810"
 gcp_region1     = "us-central1"
 machine_type    = "e2-medium"
 environment     = "dev"
 business_divsion = "hr"
-gcp_notification_email = "stacksimplify@gmail.com"
+gcp_notification_email = "honeyy.harshini@gmail.com"
